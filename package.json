@@ -1,0 +1,19 @@
+{
+  "name": "ajaia-docs-lite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A lightweight collaborative document editor inspired by Google Docs.",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
