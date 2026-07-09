@@ -3,7 +3,7 @@
 A lightweight collaborative document editor inspired by Google Docs. The goal is not to clone Google Docs; it is to demonstrate strong product judgment, full stack implementation, persistence, file handling, sharing, usability, and engineering quality within a realistic assignment scope.
 
 ## What is included
-
+// Done by Junaid
 - Create a new document
 - Rename a document
 - Edit rich-text content in the browser
